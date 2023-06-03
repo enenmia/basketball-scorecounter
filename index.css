@@ -1,0 +1,51 @@
+body {
+    margin: none;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+#hometitle,#guesttitle{
+    font-family: 'Geologica', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+#homenum,#guestnum{
+    font-family: 'Cursed Timer ULiL', sans-serif;              
+    font-size: 90px;
+    background: black;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #F94F6D;
+    margin-top: -30px;
+    display: flex;
+    justify-content: right;
+    
+}
+#home-plusone-btn, #home-plustwo-btn, #home-plusthree-btn,#guest-plusone-btn, #guest-plustwo-btn, #guest-plusthree-btn{
+    background: #1B244A;
+    border: #9AABD8 solid 1px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;   
+    color: #9AABD8
+
+}
+
+#home-btns,#guest-btns{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 5px;
+    margin-top: -60px;
+    
+}
+/* #reset{
+    color: white;
+    border:solid 1px white;
+} */
